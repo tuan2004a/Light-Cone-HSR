@@ -1,0 +1,304 @@
+{
+    "LightCone":[
+        {
+            "id":1,
+            "name": "Bước Theo Bến Bờ Thời Gian",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Hư vô",
+                "icon": "/path-class/hu-vo.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 1058
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 635
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 396
+                }
+            },
+            "superimposition": 1 ,
+            "bgLightCone": "/light-cone/Along-the-Passing-Shore.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+        },
+        {
+            "id":2,
+            "name": "Để Lời Từ Biệt Đẹp Đẽ Hơn",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Ký ức",
+                "icon": "/path-class/ky-uc.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 1270
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 529
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 396
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Make-Farewells-More-Beautiful.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":3,
+            "name": "Đường Dài Vẫn Có Lối Về",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Hư vô",
+                "icon": "/path-class/hu-vo.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 952
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 476
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 661
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Long-Road-Leads-Home.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":4,
+            "name": "Dệt Thời Gian Thành Vàng",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Ký ức",
+                "icon": "/path-class/ky-uc.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 1058
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 635
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 396
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Time-Woven-Into-Gold.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":5,
+            "name": "Hướng Về Điều Không Thể Truy Hỏi",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Trí thức",
+                "icon": "/path-class/tri-thuc.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 952
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 635
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 463
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Into-the-Unreachable-Veil.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":6,
+            "name": "Ta Sẽ, Tuần Tra Săn Bắn",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Sắn bắn",
+                "icon": "/path-class/san-ban.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 952
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 635
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 463
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/I-Venture-Forth-to-Hunt.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":7,
+            "name": "Mùi Hương Vẹn Nguyên   ",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Trú phú",
+                "icon": "/path-class/tru-phu.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 1058
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 529
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 529
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Scent-Alone-Stays-True.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":8,
+            "name": "Hi Vọng Là Vô Giá",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Trí thức",
+                "icon": "/path-class/tri-thuc.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 952
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 582
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 529
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Yet-Hope-Is-Priceless.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":9,
+            "name": "Giấc Mộng Sẽ Đi Về Đâu",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Hủy diệt",
+                "icon": "/path-class/huy-diet.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 1164
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 476
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 529
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Whereabouts-Should-Dreams-Rest.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id":10,
+            "name": "Giấc Mộng Sẽ Đi Về Đâu",
+            "level":80,
+            "star":5,
+            "path":{
+                "type": "Hòa hợp",
+                "icon": "/path-class/hoa-hop.png"
+            },
+            "stats":{
+                "HP" :{
+                    "type": "HP",
+                    "icon": "/status-icon/hp-icon.png",
+                    "hp": 952
+                },
+                "ATK":{
+                    "type": "Tấn công",
+                    "icon": "/status-icon/attack-icon.png",
+                    "atk": 635
+                },
+                "DEF":{
+                    "type": "Phòng thủ",
+                    "icon": "/status-icon/defense-icon.png",
+                    "def": 463
+                }
+            },
+            "superimposition": 1,
+            "bgLightCone": "/light-cone/Flowing-Nightglow.jpg",
+            "decsLightCone": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+}
