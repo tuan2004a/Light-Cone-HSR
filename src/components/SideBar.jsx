@@ -13,7 +13,7 @@ const SideBar = () => {
 
     return (
         <div className=''>
-            <div className='custom-scrollbar-sidbar-char space-y-4 h-160 overflow-scroll ' >
+            <div className='custom-scrollbar-sidbar-char space-y-4 h-160 overflow-scroll w-fit' >
                 {lightConeData.map((items) => (
                     <div key={items.id} onClick={()=>{setSelectedLightCone(items)}} className='overflow-hidden rounded-full size-15 pl-1 bg-[#e2ac58] z-20'><img className='size-15 rounded-full object-cover object-center' src={items.bgLightCone} alt={null} /></div>
                 ))}
