@@ -6,6 +6,15 @@ const Information = () => {
 
     if(!selecLightCone)return null;
 
+    var star = [];
+    for(let i = 0; i < selecLightCone.star; i++){
+        star.push(
+            <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 11L7 0L0 11L7 22.2747L14 11Z" fill="#ffdf99"/>
+            </svg>            
+        )
+    }
+
     return (
         <div className='h-full flex flex-col'>
             <header>
@@ -16,12 +25,8 @@ const Information = () => {
                 </span>
                 <div className='flex items-center justify-between mt-2 mb-5 relative after:absolute after:w-full after: after:-bottom-2 after:h-1 after:bg-white/30'>
                     <span className='text-[22px] font-medium'>Lv {selecLightCone.level}</span>
-                    <div className='block space-x-2.5'>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
+                    <div className='flex items-center space-x-2'>
+                        {star}
                     </div>
                 </div>
             </header>
