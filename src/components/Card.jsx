@@ -16,12 +16,12 @@ const Card = () => {
     }, [selecLightCone]);
 
     // console.log(selecLightCone)
-    if(!selecLightCone)return null;
+    if (!selecLightCone) return null;
 
     var star = [];
     for(let i = 0; i < selecLightCone.star; i++){
         star.push(
-            <svg width="32" height="32" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg key={i} width="32" height="32" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M25 12.5C17.6197 11.4299 13.7822 9.70934 12.5 0C11.2453 7.95344 9.33887 11.3725 0 12C9.13903 13.8179 11.3682 17.1431 12.5 25C13.2628 16.8787 15.8825 14.0538 25 12.5Z" fill="#FDB93B"/>
             </svg>
         )

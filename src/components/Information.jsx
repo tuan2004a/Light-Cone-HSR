@@ -9,7 +9,7 @@ const Information = () => {
     var star = [];
     for(let i = 0; i < selecLightCone.star; i++){
         star.push(
-            <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg key={i} width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 11L7 0L0 11L7 22.2747L14 11Z" fill="#ffdf99"/>
             </svg>            
         )

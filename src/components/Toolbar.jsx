@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Toolbar = () => {
     return (
         <div className='flex items-center justify-between'>
@@ -10,7 +8,7 @@ const Toolbar = () => {
             </div>
             <div className='flex items-center space-x-7'>
                 <div>
-                    <button className='size-10 bg-white rounded-full relative after:absolute after:inset-1/2 after:-translate-1/2 after:size-[75%] after:rounded-full after:border-2 after:border-gray-300'>
+                    <button  className='size-10 bg-white rounded-full relative after:absolute after:inset-1/2 after:-translate-1/2 after:size-[75%] after:rounded-full after:border-2 after:border-gray-300'>
                         <i className="fa-solid fa-magnifying-glass text-black text-lg"></i>
                     </button>
                 </div>

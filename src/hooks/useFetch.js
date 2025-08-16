@@ -7,7 +7,6 @@ const useFetch = (endpoint) => {
     const setLightConeData = useLightConeStore(state => state.setLightConeData ); 
     const setSelectedLightCone = useLightConeStore(state => state.setSelectedLightCone);
 
-    // console.log(object)
 
     useEffect(()=>{
         const fetchData = async () => {

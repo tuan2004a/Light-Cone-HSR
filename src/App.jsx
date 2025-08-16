@@ -5,13 +5,12 @@ import Information from "./components/Information";
 import Toolbar from "./components/Toolbar";
 import useLightConeStore from "./store/LightConeStore";
 
-
 function App() {
 
     useLightConeStore()
 
     return (
-        <div className="min-w-screen h-full bg-no-repeat bg-center bg-cover bg-[url('/bg-galaxy.jpg')] fixed cursor-default px-10 text-white flex flex-col justify-center ">
+        <div className="min-w-screen h-full bg-no-repeat bg-center bg-cover bg-[url('/bg-galaxy-dark.png')] fixed cursor-default px-10 text-white flex flex-col justify-center ">
             <header className="capitalize py-3">
                 <Navbar />
             </header>
