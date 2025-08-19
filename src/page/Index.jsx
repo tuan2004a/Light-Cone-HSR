@@ -5,7 +5,7 @@ import Button from "../components/common/Button";
 import { LightConeProvider, useLightConeContext } from "../context/LightConeContext";
 import Card from '../components/Card'
 import Information from "../components/Information";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ShowBgCard from "../components/ShowBgCard";
 import useOpenBgCard from "../hooks/useOpenBgCard";
 
@@ -18,6 +18,12 @@ const IndexContext = () => {
     const lightConeData = lightCone.data || []
 
     const [selectItem, setSelectItem] = useState([]);
+
+    useEffect(() => {
+        if (lightConeData.length > 0) {
+            setSelectItem(lightConeData[0]);
+        }
+    }, [lightConeData]);
 
     const handleShowBgCard = () => {
         handleOpenBgCard();
