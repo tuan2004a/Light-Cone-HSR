@@ -24,7 +24,13 @@ const Navbar = ({ItemData}) => {
                 </div>
             </div>
             <button>
-                x
+                <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="13" cy="13" r="2" fill="#D9D9D9"/>
+                    <line x1="0.353553" y1="0.646447" x2="9.54594" y2="9.83883" stroke="white"/>
+                    <line x1="16.6464" y1="9.83883" x2="25.8388" y2="0.646446" stroke="white"/>
+                    <line y1="-0.5" x2="13" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 25.1924)" stroke="white"/>
+                    <line y1="-0.5" x2="13" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 17 16)" stroke="white"/>
+                </svg>
             </button>
         </div>
     )
