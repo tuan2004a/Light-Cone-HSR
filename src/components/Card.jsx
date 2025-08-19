@@ -1,9 +1,8 @@
-import {React, useEffect, useRef} from 'react';
-import useLightConeStore from '../store/LightConeStore';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+
 const Card = ({ItemData}) => {
     const cardRef = useRef(null);
-    const selecLightCone = useLightConeStore((state) => state.selecLightCone);
 
     useEffect(() => {
         if (ItemData) {
@@ -15,7 +14,6 @@ const Card = ({ItemData}) => {
         }
     }, [ItemData]);
 
-    console.log(ItemData)
     if (!ItemData) return null;
 
     var star = [];
