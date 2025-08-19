@@ -2,7 +2,6 @@ import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import SideBar from "./components/SideBar";
 import Information from "./components/Information";
-import Toolbar from "./components/Toolbar";
 import Index from "./page/Index";
 
 function App() {
