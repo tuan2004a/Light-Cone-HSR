@@ -1,13 +1,14 @@
+//LightConeSlices.js
 import LightConeService from "../../service/LightConeService";
+import { create } from "zustand";
 
-class LightConeSlices {
-    fetchLightCone = async () => { 
+const  LightConeSlices = {
+    fetchLightCone: async () => { 
         try {
             const result = await LightConeService.getAll();
             return result;
         } catch (error) {
-            set({ loading: false, error: error.message || "Lỗi khi tải dữ liệu công việc" });
-            console.error("❌ Lỗi fetchWorks:", error);
+            console.error(error);
             throw error;
         }
     }

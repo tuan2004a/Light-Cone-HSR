@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import api from '../config/api';
+import { API_URL } from '../config/api';
 import useLightConeStore from '../store/LightConeStore';
 
 const useFetch = (endpoint) => {
@@ -11,7 +11,7 @@ const useFetch = (endpoint) => {
     useEffect(()=>{
         const fetchData = async () => {
             try {
-                const response = await api.get(endpoint);
+                const response = await API_URL.get(endpoint);
                 const data = response.data;
                 if (data.length > 0) {
                     setLightConeData(data); 

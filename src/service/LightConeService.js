@@ -1,5 +1,7 @@
+//LightConeService.js
+
 import axios from 'axios';
-import { API_URL } from '../config/api';
+import {API_URL} from '../config/api';
 
 class LightConeService { 
     constructor() {
@@ -8,8 +10,9 @@ class LightConeService {
 
     async getAll() {
         try {
-            const response = await axios.get(`${this.baseUrl}`);
-            
+
+            const response = await axios.get(this.baseUrl);
+            // console.log(response)
             return response;
         } catch (error) {
             console.log(error);
@@ -18,4 +21,4 @@ class LightConeService {
     }
 }
 
-export default LightConeService
+export default new LightConeService

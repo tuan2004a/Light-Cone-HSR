@@ -1,11 +1,10 @@
 import React from 'react';
 import useLightConeStore from '../store/LightConeStore';
 
-const Navbar = () => {
+const Navbar = ({ItemData}) => {
 
-    const selecLightCone = useLightConeStore((state) => state.selecLightCone)
     
-    if(!selecLightCone)return null;
+    if(!ItemData)return null;
 
     return (
         <div className='flex items-center justify-between'>
@@ -14,12 +13,12 @@ const Navbar = () => {
                 <div>
                     <h3 className='tracking-wider leading-normal text-[#e5ca94] font-medium'>Nón ánh sáng nhân vật</h3>
                     <span className='flex font-medium text-xl leading-normal'>
-                        <p>{selecLightCone.path.type}</p>
+                        <p>{ItemData.path?.type}</p>
                         <span className='rotate-20 mx-1.5'>
                             /
                         </span>
                         <p>
-                            {selecLightCone.name}
+                            {ItemData.name}
                         </p>
                     </span>
                 </div>
