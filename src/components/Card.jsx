@@ -36,7 +36,7 @@ const Card = ({ItemData}) => {
                 </div>
                 <div className='absolute z-30 w-[307px] h-[430px] bg-white/15 top-0 left-0 -translate-x-11.5 -translate-y-12  after:absolute after:rounded after:w-[87%] after:h-[90%] after:border-2 after:border-amber-100 after:top-1/2 after:left-1/2 after:translate-[-50%]' style={{clipPath: "polygon(5% 0, 95% 0, 100% 4%, 100% 96%, 95% 100%, 5% 100%, 0 96%, 0 4%)",}}>
                     <div className="absolute bottom-8 left-10 flex items-center space-x-1">
-                        <img className="size-7 outline-1 outline-offset-4 rounded-full mr-2" src={ItemData.path?.icon} alt={ItemData.path?.type}/>
+                        <img className="size-7 outline-1 outline-offset-4 rounded-full mr-2 select-none" src={ItemData.path?.icon} alt={ItemData.path?.type}/>
                         {star}  
                     </div>
                 </div>

@@ -50,7 +50,7 @@ const IndexContext = () => {
             </main>
             <div className='flex items-center justify-between'>
                 <div>
-                    <Button className="size-10 hidden">
+                    <Button className="size-10">
                         <i className="fa-solid fa-grid-2 text-xl text-black"></i>
                     </Button>
                 </div>
@@ -67,8 +67,7 @@ const IndexContext = () => {
                     </div>
                 </div>
             </div>
-
-            <div className={`${isOpenBgCard == true ? "block" : "hidden"} absolute z-[100] size-full inset-0 bg-no-repeat bg-center bg-cover bg-[url('/bg-galaxy.jpg')]`}>
+            <div className={`${isOpenBgCard == true ? "block" : "hidden"}  absolute z-[100] size-full inset-0 bg-no-repeat bg-center bg-cover bg-[url('/bg-galaxy.jpg')]`}>
                 <ShowBgCard ItemData={selectItem} />
                 
                 <button onClick={handleClostBgCard} className="absolute top-6.5 right-10">
