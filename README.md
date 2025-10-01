@@ -1,15 +1,15 @@
-# ⭐ Honkai: Star Rail Light Cone Database
+# Honkai: Star Rail Light Cone Database
 A web application to browse and manage Light Cones from Honkai: Star Rail game.
 
 ## 🛠️ Technologies Used
 
-### ⚛️ Frontend
+### Frontend
 - React.js
 - Tailwind CSS
 - Zustand (State Management)
 - Vite (Build Tool)
 
-### 🗄️ Backend
+### Backend
 - JSON Server (RESTful API)
 
 ## ✨ Features
@@ -18,19 +18,6 @@ A web application to browse and manage Light Cones from Honkai: Star Rail game.
 - View detailed Light Cone information
 - Search functionality
 - Responsive design for mobile and desktop
-
-## 🚀 Getting Started
-
-### 📋 Prerequisites
-- Node.js (version 14 or higher)
-- npm or yarn
-
-### 📦 Installation
-1. Clone the repository
-2. Install dependencies:
-```bash
-npm install
-```
 
 ## ⚙️ System Requirements
 - Node.js >= 14.x
@@ -52,10 +39,8 @@ npm run json
 ```
 Backend API will run at http://localhost:3001.
 
-### 3. Access the Website
-- Make sure both frontend and backend are running.
-- Open your browser and go to the frontend address.
-
-### 4. Notes
+## 📝 Notes
 - If you change the db.json file, restart JSON Server to update the data.
+- Make sure json-server is running so the frontend can fetch Light Cone data.
 - If you encounter errors, check your Node.js and npm/yarn versions.
+- You can customize Light Cone data in the src/db/db.json file.
