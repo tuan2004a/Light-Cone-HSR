@@ -42,7 +42,7 @@ pnpm -v
 
 ```bash
 git clone <your-repo-url>
-cd carousel-slider-ww
+cd Light-Cone-HSR
 ```
 
 ### 2. Cài đặt dependencies
@@ -130,6 +130,6 @@ Dự án này được phát hành dưới MIT License. Bạn có thể tự do 
 
 <div align="center">
 
-**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Wuthering Waves ✨**
+**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Honkai: Star Rail ✨**
 
 </div> 
