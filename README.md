@@ -6,7 +6,6 @@
 - [Công nghệ sử dụng](#công-nghệ-sử-dụng)
 - [Yêu cầu môi trường](#yêu-cầu-môi-trường)
 - [Cài đặt & chạy dự án](#cài-đặt--chạy-dự-án)
-- [Các script trong `package.json`](#các-script-trong-packagejson)
 - [Cấu trúc thư mục](#cấu-trúc-thư-mục)
 - [Preview Video](#preview-video)
 - [Lưu ý khi phát triển](#lưu-ý-khi-phát-triển)
@@ -101,4 +100,36 @@ src/
 
 https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0
 
-```
+---
+## Lưu ý khi phát triển
+
+- **Chạy JSON Server song song**: Hãy luôn đảm bảo `pnpm json` đang chạy khi bạn dev, nếu không axios sẽ bị lỗi gọi API.
+- **Port xung đột**:
+  - Vite: thường ở `5173`
+  - JSON Server: `3001`
+  - Nếu port đã được dùng, hãy đổi port hoặc tắt service đang chiếm port.
+- **Cấu hình Axios**:
+  - Đảm bảo `baseURL` trỏ đúng tới `http://localhost:3001` (hoặc port bạn cấu hình).
+  - Nếu bạn build production và deploy, cần thay đổi `baseURL` phù hợp backend thực tế.
+- **Tailwind v4**:
+  - Ở file `src/index.css` có dòng `@import "tailwindcss";` theo style mới của Tailwind v4.
+  - Nên tránh override global quá nhiều để không bị xung đột class.
+
+---
+### License
+Dự án này được phát hành dưới MIT License. Bạn có thể tự do sử dụng, chỉnh sửa và chia sẻ, nhưng không được sử dụng cho mục đích thương mại dưới bất kỳ hình thức nào.
+
+---
+## Contact
+
+* Author: Trantuan07a
+* Email: dev.lamtuan@gmail.com
+* GitHub: [@Trantuan07a](https://github.com/Trantuan07a)
+
+---
+
+<div align="center">
+
+**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Wuthering Waves ✨**
+
+</div> 
