@@ -23,10 +23,10 @@ const SystemMessage = ({ isOpenNoticeCard }) => {
 
 
     return (
-        <div ref={cardRef} className=" bg-neutral-800/93 w-fit px-5 py-[5px] leading-normal rounded-md font-medium text-[17px]">
-            Tính năng sẽ sớm có mặt
-        </div>
-    )
+		<div ref={cardRef} className=" bg-neutral-800/93 w-fit px-5 py-1.25 leading-normal rounded-md font-medium text-[17px]">
+			Tính năng sẽ sớm có mặt
+		</div>
+	);
 }
 
 export default SystemMessage

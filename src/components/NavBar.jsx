@@ -23,7 +23,7 @@ const Navbar = ({ItemData}) => {
                     </span>
                 </div>
             </div>
-            <button>
+            <button className='opacity-30 cursor-not-allowed'>
                 <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="13" cy="13" r="2" fill="#D9D9D9"/>
                     <line x1="0.353553" y1="0.646447" x2="9.54594" y2="9.83883" stroke="white"/>
