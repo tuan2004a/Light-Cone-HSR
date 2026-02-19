@@ -1,5 +1,5 @@
 # Light Cone HSR
-**Ứng dụng web hiện đại giúp bạn khám phá, tìm kiếm và quản lý bộ sưu tập Light Cones từ game Honkai: Star Rail một cách dễ dàng và trực quan.
+**Ứng dụng web hiện đại giúp bạn khám phá, tìm kiếm và quản lý bộ sưu tập Light Cones từ game Honkai: Star Rail một cách dễ dàng và trực quan.**
 
 ---
 ## Mục lục
@@ -116,7 +116,7 @@ https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0
   - Nên tránh override global quá nhiều để không bị xung đột class.
 
 ---
-### License
+## License
 Dự án này được phát hành dưới MIT License. Bạn có thể tự do sử dụng, chỉnh sửa và chia sẻ, nhưng không được sử dụng cho mục đích thương mại dưới bất kỳ hình thức nào.
 
 ---
