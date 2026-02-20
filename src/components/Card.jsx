@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-const Card = ({ ItemData }) => {
+const Card = ({ ItemData, ...props }) => {
 	const cardRef = useRef(null);
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ const Card = ({ ItemData }) => {
 	}
 
 	return (
-		<div className="flex items-center">
+		<div className="flex items-center" {...props}>
 			<div ref={cardRef} className=" relative w-76.75 h-107.5 rotate-5">
 				<div className=" absolute z-10 w-76.75 h-107.5 bg-white/15 top-0 left-0 after:absolute after:rounded after:w-[87%] after:h-[90%] after:border-2 after:border-amber-100 after:top-1/2 after:left-1/2 after:translate-[-50%]" style={{ clipPath: "polygon(5% 0, 95% 0, 100% 4%, 100% 96%, 95% 100%, 5% 100%, 0 96%, 0 4%)" }}></div>
 				<div className=" absolute z-20 w-76.75 -translate-x-5.5 -translate-y-5 ">

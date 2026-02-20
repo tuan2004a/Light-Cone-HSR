@@ -3,43 +3,32 @@ import Navbar from "../components/Navbar";
 import LightCone from "../components/SideBar";
 import Button from "../components/common/Button";
 import { LightConeProvider, useLightConeContext } from "../context/LightConeContext";
-import Card from '../components/Card'
+import Card from "../components/Card";
 import Information from "../components/Information";
 import { useEffect, useState } from "react";
 import ShowBgCard from "../components/ShowBgCard";
 import useOpenBgCard from "../hooks/useOpenBgCard";
-import useOpenNotice from "../hooks/useOpenNotice";
-import SystemMessage from "../components/common/SystemMessage";
-
 
 const IndexContext = () => {
+	const { isOpenBgCard, handleOpenBgCard, handleClostBgCard } = useOpenBgCard();
 
-    const { isOpenBgCard, handleOpenBgCard, handleClostBgCard } = useOpenBgCard();
-    const { isOpenNoticeCard, handleOpenNotices, handleCloseNotices } = useOpenNotice();
+	const { lightCone } = useLightConeContext();
+	const lightConeData = lightCone.data || [];
 
-    const { lightCone } = useLightConeContext();
-    const lightConeData = lightCone.data || []
+	const [selectItem, setSelectItem] = useState([]);
 
-    const [selectItem, setSelectItem] = useState([]);
+	useEffect(() => {
+		if (lightConeData.length > 0) {
+			setSelectItem(lightConeData[0]);
+		}
+	}, [lightConeData]);
 
-    useEffect(() => {
-        if (lightConeData.length > 0) {
-            setSelectItem(lightConeData[0]);
-        }
-    }, [lightConeData]);
+	const handleShowBgCard = () => {
+		handleOpenBgCard();
+	};
 
-    const handleShowBgCard = () => {
-        handleOpenBgCard();
-    }
 
-    const handleNoticesSystem = () => {
-        handleOpenNotices();
-        setTimeout(() => {
-            handleCloseNotices();
-        }, 4531);
-    }
-
-    return (
+	return (
 		<div className="size-full">
 			<header className="capitalize py-3">
 				<Navbar ItemData={selectItem} />
@@ -83,18 +72,15 @@ const IndexContext = () => {
 					</svg>
 				</button>
 			</div>
-			<div className={`${isOpenNoticeCard == true ? "block" : "hidden"} absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
-				<SystemMessage isOpenNoticeCard={isOpenNoticeCard} />
-			</div>
 		</div>
 	);
-}
+};
 
 const Index = () => {
-    return (
-        <LightConeProvider>
-            <IndexContext/>
-        </LightConeProvider>
-    )
-}
+	return (
+		<LightConeProvider>
+			<IndexContext />
+		</LightConeProvider>
+	);
+};
 export default Index;
