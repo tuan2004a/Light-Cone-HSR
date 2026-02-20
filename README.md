@@ -98,7 +98,7 @@ src/
 
 
 
-https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0
+https://github.com/tuan2004a/Light-Cone-HSR/blob/526cc3819fbcf73a9926c6e61e1e7c77332e6558/public/Light-Cone-HSR.mp4
 
 ---
 ## Lưu ý khi phát triển
